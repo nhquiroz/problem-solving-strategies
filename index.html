@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Estrategias para resolver problemas</title>
+
+    <meta name="description" content="Estrategias para resolver problemas">
+    <meta name="author" content="Nicolás Quiroz">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/atom-one-dark.min.css">
+
+    <!-- Give me some emojis! -->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+		<!-- Printing and PDF exports -->
+		<script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+		</script>
+
+    <!--Add support for earlier versions of Internet Explorer -->
+	  <!--[if lt IE 9]>
+	  <script src="lib/js/html5shiv.js"></script>
+	  <![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Estrategias para resolver problemas</h1>
+					<p style="font-size: 0.7em">Nicolás Quiroz / <a href="https://twitter.com/_nhsz">@_nhsz</a></p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em"><i class="em em-raised_hand"></i> #1: <strong class=keyword>Leer</strong> y <strong class=keyword>entender</strong> el problema.</p>
+          <br>
+          <p style="font-size: 1.25em"><strong class=keyword>Hacernos preguntas: </strong>¿Qué datos tenemos? ¿Input/output? ¿Restricciones? Etc.</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#1.1: <strong class=keyword>Asegurarnos</strong> de haber entendido.</p>
+          <br>
+          <p style="font-size: 1.25em">¿Podemos explicárselo a otra persona?</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#2: <strong class=keyword>Lápiz</strong> y <strong class=keyword>papel</strong>.</p>
+          <br>
+          <p style="font-size: 1.25em"><i class="em em-warning"></i> Objetivo:  <strong class=keyword>resolver problemas</strong>.</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#3: Escribir <strong class=keyword>ejemplos</strong>.</p>
+          <br>
+          <p style="font-size: 1.25em"><i class="em em-warning"></i> Buscar <strong class=keyword><em>casos borde</em></strong>. ¿Qué pasa si la entrada es vacía/inválida?</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#4: <strong class=keyword>Descomponer</strong> en subproblemas más simples y resolverlos.</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#4.1: Resolver una <strong class=keyword>versión más simple</strong>.</p>
+          <br>
+          <p style="font-size: 1.25em"><strong class=keyword>Relajar</strong> las condiciones.</p>
+          <br>
+          <p style="font-size: 1.25em"><i class="em em-warning"></i> No sobresimplificar.</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#5: <strong class=keyword>Generalizar</strong>.</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#6: <strong class=keyword>Explicar</strong> la solución propuesta.</p>
+          <br>
+          <p style="font-size: 1.25em">Muy útil para testear y encontrar <strong class=keyword>fallas en nuestro razonamiento</strong>.</p>
+				</section>
+
+        <section>
+          <p style="font-size: 2em">#7: <strong class=keyword>No optimizar</strong> antes de que sea necesario.</p>
+          <blockquote>
+						<p>"Premature optimization is the root of all evil."</p>
+            <p>– <a href="http://wiki.c2.com/?PrematureOptimization">Donald Knuth</a></p>
+					</blockquote>
+					<blockquote>
+						<p>"Make it work. Make it right. Make it fast."</p>
+            <p>– <a href="http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast">Kent Beck</a></p>
+					</blockquote>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">#Bonus: ¿Puedo <strong class=keyword>mejorar</strong> la solución?</p>
+          <br>
+          <p style="font-size: 1.25em"><strong class=keyword>Refactorizar</strong>. Código más simple, legible, elegante, reutilizable, etc.</p>
+				</section>
+
+        <section>
+					<p style="font-size: 2em">¡<strong class=keyword>Practicar</strong> mucho!</p>
+          <br>
+          <p style="font-size: 1.25em">Con el tiempo, vamos descubriendo diferentes <strong class=keyword>patrones</strong> en los problemas y automatizamos este <strong class=keyword>proceso</strong>.</p>
+				</section>
+
+        <section>
+          <h2>Algoritmo para hacer consultas: RSA</h2>
+          <blockquote>
+					  <p style="font-size: 1.25em; text-align: left">
+              1. <strong class=keyword>Read</strong> the documentation or error.
+              <br>
+              2. <strong class=keyword>Search</strong> Google.
+              <br>
+              3. <strong class=keyword>Ask</strong> your friends for help.
+            </p>
+            <p>– <a href="https://forum.freecodecamp.com/t/how-to-get-help-when-you-are-stuck/19514">How To Get Help When You Are Stuck</a></p>
+        </blockquote>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
