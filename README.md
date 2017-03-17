@@ -1,8 +1,6 @@
-<h1 align="center">:zap: Problem Solving Strategies</h1>
+# :zap: Problem Solving Strategies
 
-<br>
-
-Quick tips and strategies to remember when you get stuck solving algorithms. 
+> Quick tips and strategies to remember when you get stuck solving algorithms. 
 
 Slides built using **[`reveal.js`](https://github.com/hakimel/reveal.js)**.
 
